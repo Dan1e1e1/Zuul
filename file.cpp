@@ -1,6 +1,6 @@
 #include <iostream>
 #include "room.h"
-#include namespace std;
+using namespace std;
 int main() {
   getExits();
   cout << "called main";
