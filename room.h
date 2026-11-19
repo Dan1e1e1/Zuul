@@ -5,9 +5,10 @@ using namespace std;
 class room {
  public:
   //constructor
-  room(const char e[]);
-  const char* getExits();
+  room(vector<room*> e);
+  vector<room*> getExits();
  protected:
  //vector that stores the exits
+  //char exit[6];
   vector<room*> exits;
 };
